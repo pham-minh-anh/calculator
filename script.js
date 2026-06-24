@@ -102,10 +102,18 @@ clear.addEventListener("click", () => {
 backspace.addEventListener("click", () => {
     if (operator === '') {
             firstNumber = firstNumber.slice(0, firstNumber.length - 1);
-            display.textContent = firstNumber;
+            if (firstNumber ==='') {
+                display.textContent = '0';
+            } else {
+                display.textContent = firstNumber;
+            }
         } else {
             secondNumber = secondNumber.slice(0, secondNumber.length - 1);
-            display.textContent = secondNumber;
+            if (secondNumber ==='') {
+                display.textContent = '0';
+            } else {
+                display.textContent = secondNumber;
+            }
         }
 })
 

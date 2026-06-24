@@ -1,0 +1,36 @@
+
+.wrapper {
+    padding : 15px;
+    background-color: rgb(100,100,100);
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+}
+.display {
+    background-color: bisque;
+    width: 180px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
+}  
+
+.display p {
+    margin: 0px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operators {
+    display: flex;
+    flex-wrap: wrap;
+}
